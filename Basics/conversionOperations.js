@@ -25,3 +25,31 @@ let someNumber = 33
 let stringnumber = String(someNumber) // converts the variable to string
 console.log(stringnumber)
 console.log(typeof stringnumber) 
+
+
+// node Basics/conversionOperations.js
+
+
+//****************************************operations******************************** */
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/3);
+// console.log(2%2);
+
+let str1 = "hello"
+let str2 = " aksh"
+
+let str3 = str1+str2
+console.log(str3); 
+
+
+let gameCounter = 100
+gameCounter++; // increments by 1 
+console.log(gameCounter); 
